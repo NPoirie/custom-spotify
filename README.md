@@ -11,7 +11,7 @@ Le back est développé en Java SpringBoot -> https://github.com/NPoirie/custom-
 
  
 ## Amélioration possible
-Je n'ai pas eu le temps de fournir une documentation suffisante pour que le projet soit facilement utilisable (il manque notamment les commentaires pour Javadoc).
-
-Les tests sont pour l'instant manquant. Je comptais utiliser cypress pour le front et Junit pour le back.
-
+- Je n'ai pas eu le temps de fournir une documentation suffisante pour que le projet soit facilement utilisable (il manque notamment les commentaires pour Javadoc).
+- Les tests sont pour l'instant manquant. Je comptais utiliser cypress pour le front et Junit pour le back.
+- J'ai rencontré un problème avec le CORS (Cross-Origin Resource Sharing). J'ai pu le corriger en utilisant l'annotation @CrossOrigin, mais je ne suis pas sûr que ce soit la meilleure façon de le corriger, notamment si il y a déploiement en production. A investiger...
+- Compléter le cahier des charges
